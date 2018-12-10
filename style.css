@@ -1,0 +1,54 @@
+#opacity{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px){
+    #opacity{
+    opacity: 0.9;
+    }   
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    #opacity{
+    opacity: 0.8;
+    }   
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+    #opacity{
+    opacity: 0.7;
+    }   
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px){
+    #opacity{
+    opacity: 0.6;
+    }   
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    #opacity{
+    opacity: 0.5;
+    }   
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    #opacity{
+    opacity: 0.4;
+    }   
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px){
+    #opacity{
+    opacity: 0.2;
+    }   
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px){
+    #opacity{
+    opacity: 0.1;
+    }   
+}
